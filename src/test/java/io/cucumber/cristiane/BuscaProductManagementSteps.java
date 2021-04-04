@@ -18,7 +18,6 @@ public class BuscaProductManagementSteps {
 
 	@Entao("devo ver o valor e o botao comprar agora")
 	public void devo_ver_o_valor_e_o_botao_comprar_agora() throws InterruptedException {
-//	    Configuracao.id("lp-pom-button-883").click();
 	    Thread.sleep(2000);
         Configuracao.abrir("https://pay.hotmart.com/W43905507S?off=94b58527&checkoutMode=0&bid=1616725304896");
         Configuracao.cssSelectors(".product-price");
